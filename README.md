@@ -34,7 +34,7 @@ You are in charge of figuring out how the email campaign performed and were aske
 
 ### 1. Visualization and Analysis
 
-**I begin with visualizing the features and analyizing their impact on link clicking rates:**
+**I'll begin with visualizing the features and analyizing their impact on link clicking rates:**
 
  - I've joined the email_opened and link_clicked table for ease.
  - I'll use heatmaps, bar plots, etc. for visualizations between the link click rate and email opened rate against all the features provided.

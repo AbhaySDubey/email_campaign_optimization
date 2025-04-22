@@ -78,5 +78,5 @@ You are in charge of figuring out how the email campaign performed and were aske
 
 ## Future Scope
 
-- I'd really like to optimize the binary classification model further. There are quite a few issues given the imbalance in the dataset, so I'd hopefully be able to work around that a little better.
+- I'd really like to optimize the binary classification model further. There are quite a few issues given the imbalance in the dataset, so I'd try to hopefully work around that a little better.
 - The current ***"email delivery optimization"*** isn't really as *efficient* and *robust* as I think it can be made. So, would try to improve upon that, as well.

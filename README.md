@@ -2,16 +2,17 @@
 
 ## Introduction
 
-This project aims to prepare a model that can help optimise email marketing campaign for an e-commerce company provided the details regarding the number of past purchase and the country the user resides in.
+This project aims to prepare a model that can help optimise email marketing campaign for an e-commerce company provided the details regarding the number of past purchases and the country the user resides in.
 
 ---
 
 ## Problem Statement
 
-(As stated in the provide case study's problem description)
+(As stated in the provided case study's problem description)
 
 ### Goal
 Optimizing marketing campaigns is one of the most common data science tasks. Among the many marketing tools available, emails stand out as particularly efficient.
+
 Emails are great because they are free, scalable, and can be easily personalized. Email optimization involves personalizing the content and/or the subject line, selecting the recipients, and determining the timing of the sends, among other factors. Machine Learning excels at this.
 
 ### Case Description
@@ -53,9 +54,7 @@ You are in charge of figuring out how the email campaign performed and were aske
 ### 3. Preparing model for Optimizing Email Deliveries
 
 - Here, I'll use the binary classifier model trained in the previous step to prepare a model that can help in optimizing how to send emails to maximize probability of users clicking on the link given inside the email.
-
 - For this, I'll require the past purchase details and the country the user resides in as inputs (which as stated in the problem description will be available to us).
-
 - Next, I'll be considering all possible combinations of weekdays, local time, email versions/personalizations, etc. to predict the most optimal combinations, returned as a list of dictionaries sorted based on decreasing probabilities of link clicks.
 
 ---
